@@ -1,0 +1,129 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+/* HEADER ATAS */
+div.header-atas{
+    color: #ffffff;
+    padding: 5px;
+    font-size: large;
+    text-align: center;
+    border-style: outset;
+    text-shadow: 1px 1px 10px;
+    background:#f3767c;
+    
+}
+
+/* Navigation Bar */
+.nav-persegi{
+    background-color: #83BCFF;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+    text-align: center;
+    border-style: outset;
+    text-shadow: 1px 1px 1px;
+    border-bottom: none;
+}
+.nav-persegi a{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;}
+.nav-persegik{
+    background-color: #83BCFF;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+    text-align: center;
+    border-style: outset;
+    text-shadow: 1px 1px 1px;
+    border-bottom: none;
+    border-top: 200px;
+}
+.nav-persegik a{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;}
+
+
+/* LUAS PERSEGI */
+
+#luaspersegi{
+    text-align: center;
+    background-color: #f7eb44;
+    padding: 20px;
+}
+.persegi{
+    text-align: center;
+    margin-top: -18px;
+}
+header{
+    border-style: outset;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.Tulisan{
+    padding: 20px;
+    margin-top: -50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* KELILING PERSEGI */
+
+#kelilingpersegi{
+    text-align: center;
+    background-color: #f7eb44;
+    padding: 20px;
+}
+.persegi{
+    text-align: center;
+    margin-top: -18px;
+}
+footer{
+    border-style: outset;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/* TOMBOL */
+button {
+    background-color: rgb(19, 97, 97);
+    color: white; 
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: rgb(78, 175, 175);
+}
+
+button:active{
+    background-color: rgb(130, 184, 184);
+    transform: translateY(2px);
+}
+
+#sisiKeliling{
+    border-radius: 8px;
+    border-color: rgb(117, 114, 114);
+    border-style: groove;
+    height: 30px;
+    padding: 5px 10px;
+}
+#sisiLuas{
+    border-radius: 8px;
+    border-color: rgb(117, 114, 114);
+    border-style: groove;
+    height: 30px;
+    padding: 5px 10px;
+
+}
+
+
