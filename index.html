@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Bagian Atas -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Pintar</title>
+
+        <div class="header-atas">
+            <h1>Kalkulator Pintar</h1>
+        </div>
+</head>
+
+<!-- Bagian LI OL UL -->
+
+        <div class="nav-persegi"><a href="index.html#luaspersegi">Luas Persegi</a></div> 
+        <div class="nav-persegik"><a href="index.html#kelilingpersegi">Keliling Persegi</a></div>
+    
+
+<!-- LUAS PERSEGI -->
+<header>
+            <h3 id="luaspersegi">Luas Persegi</h3>
+    <div class="persegi"><img src="bujur-sangkar.jpeg" height="350px" width="350px"> </img></div>
+            <p class="Tulisan">Rumus Luas Persegi yaitu: <br> L=SxS <br> Dimana: <br>L = Luas <br> S = Sisi </p>
+<!-- PERHITUNGAN LUAS -->
+
+   <h2>Hitung Luas Persegi</h2>
+  <label for="sisiLuas">Panjang Sisi:</label>
+  <input type="number" id="sisiLuas" placeholder="Masukkan panjang sisi">
+  <button onclick="hitungLuas()">Hitung Luas</button>
+  <button onclick="resetLuas()">Reset</button>
+  <p id="langkahLuas"></p>
+  <p id="hasilLuas"></p>
+  
+</header>
+
+<!-- KELILING PERSEGI -->
+<footer>
+            <h3 id="kelilingpersegi">Keliling Persegi</h3>
+    <div class="persegi"><img src="bujur-sangkar.jpeg" height="350px" width="350px"> </img></div>
+            <p class="Tulisan">Rumus Keliling Persegi yaitu: <br> L=4xS <br> Dimana: <br>L = Luas <br> S = Sisi </p>
+
+
+<!-- PERHITUNGAN KELILING -->
+    <h2>Hitung Keliling Persegi</h2>
+  <label for="sisiKeliling">Panjang Sisi:</label>
+  <input type="number" id="sisiKeliling" placeholder="Masukkan panjang sisi">
+  <button onclick="hitungKeliling()">Hitung Keliling</button>
+  <button onclick="resetKeliling()">Reset</button>
+  <p id="langkahKeliling"></p>
+  <p id="hasilKeliling"></p>
+</footer>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
